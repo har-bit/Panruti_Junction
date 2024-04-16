@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <title>Place Order</title>
+    <style>
+        body {
+            background-image: url('images/orders.jpg');
+            background-size: cover;
+            text-align: center;
+            font-family: 'sans-serif';
+        }
+
+        .container {
+            width: 25%;
+            margin: 100px auto;
+            background-color: rgba(21, 87, 140, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        input[type="text"], select {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            position: absolute;
+            bottom: 50px;
+            right: 600px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Place Order</h1>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Name" required><br>
+            <input type="text" name="phno" placeholder="Phone Number" required><br>
+            <input type="text" name="address" placeholder="Address" required><br>
+            <select name="item" required>
+                <option value="" disabled selected>Select Item</option>
+                <option value="Star gooseberry">Star gooseberry</option>
+                <option value="Organic Groundnut Oil">Organic Groundnut Oil</option>
+                <option value="Fresh Groundnut">Fresh Groundnut</option>
+                <option value="Kaju Katli">Kaju Katli</option>
+                <option value="Organic Milk">Organic Milk</option>
+                <option value="Desi Eggs">Desi Eggs</option>
+                <option value="Ice Apple">Ice Apple</option>
+                <option value="Palm sprout">Palm sprout</option>
+                <option value="Roasted Cashews">Roasted Cashews</option>
+                <option value="jackfruits">jackfruits</option>
+                <option value="Dryfruits Giftbox">Dryfruits Giftbox</option>
+                <option value="Panruti Salty Black Pepper Cashew">Panruti Salty Black Pepper Cashew</option>
+                <option value="Raw White Split Cashew Nut">Raw White Split Cashew Nut</option>
+                <option value="Whole W180 Raw Cashew Nuts">Whole W180 Raw Cashew Nuts</option>
+                <option value="Whole Cashew">Whole Cashew</option>
+                <option value="Organic Raw Cashew">Organic Raw Cashew</option>
+            </select><br>
+            <input type="text" name="quantity" placeholder="Quantity (kg/liter/pack)" required><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+        crossorigin="anonymous"></script>
+</body>
+</html>
